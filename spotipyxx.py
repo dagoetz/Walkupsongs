@@ -1,7 +1,7 @@
 
 # coding: utf-8
 
-# In[ ]:
+# In[4]:
 
 
 import os
@@ -23,6 +23,6 @@ except:
     os.remove(f".cache-{username}")
     token=util.prompt_for_user_token(username)
 
-spotifyObject=spotipy.spotify(auth=token)
+Object=spotipy.spotify(auth=token)
     
 
